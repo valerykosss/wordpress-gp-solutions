@@ -1,0 +1,55 @@
+/*
+ * Theme Name: Zero WP 3.0
+ * Description: Ultra-minimal WordPress starter theme. Optimized for converting html-layouts to websites. Also is a good start for SPA, creating unique projects.
+ * Theme URI:   https://github.com/solidcreature/zero_wp
+ * Author:      Nikolay Mironov
+ * Author URI:  http://wpfolio.ru
+*/
+
+.base_wrapper {
+    max-width: var(--content-width-base);
+    margin: 0 auto;
+}
+
+.small_wrapper {
+    max-width: var(--content-width-small);
+    margin: 0 auto;
+}
+
+.base_title {
+    font-weight: var(--font-weight-h1);
+    line-height: var(--font-line-height-h1);
+    font-size: var(--font-size-h1);
+}
+
+.secondary_title {
+    font-weight: var(--font-weight-h3);
+    line-height: var(--font-line-height-h3);
+    font-size: var(--font-size-h3);
+}
+
+.base_text {
+    font-weight: var(--font-weight-p);
+    line-height: var(--font-line-height-p);
+    font-size: var(--font-size-p);
+}
+
+.line_blue {
+    display: block;
+    background-color: var(--span-blue-accent);
+    margin-top: 26px;
+    width: var(--span-blue-width);
+    height: var(--span-blue-height);
+}
+
+.line_orange {
+    display: block;
+    background-color: var(--span-orange-accent);
+    margin-top: 15px;
+    width: var(--span-orange-width);
+    height: var(--span-orange-height);
+}
+
+h1, h2, h3 {
+    text-transform: capitalize;
+}

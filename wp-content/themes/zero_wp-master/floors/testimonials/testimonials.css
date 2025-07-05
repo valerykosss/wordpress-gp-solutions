@@ -1,0 +1,136 @@
+.testimonials {
+    position: relative;
+    background-image: url('http://localhost:8888/gp_solutions/wp-content/uploads/2025/07/feedback-bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+
+.testimonials::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(17, 53, 99, 0.6);
+    z-index: 1;
+}
+
+.testimonials__wrapper {
+    padding: var(--padding-80) 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonials__title {
+    font-size: var(--font-size-h1);
+    font-weight: var(--font-weight-h1);
+    line-height: var(--font-line-height-h1);
+    color: var(--white);
+    z-index: 1;
+}
+
+.testimonials__title-line {
+    z-index: 1; 
+}
+
+.swiper {
+    padding-top: 40px;
+    width: 100%;
+    overflow: hidden;
+    height: auto !important;
+}
+
+.swiper-wrapper {
+    display: flex !important;
+}
+
+.swiper-slide {
+    background: var(--blue);
+    padding: 44px 50px;
+    color: var(--white);
+    transition: all 0.5s ease;
+    width: 634px !important;
+    border-radius: 4px;
+    height: auto !important;
+}
+
+.swiper-slide:not(.swiper-slide-active) {
+    transform: scale(0.7) translate(-15%, -21%);
+    opacity: 0.5;
+    width: auto;
+    height: auto;
+}
+
+.testimonials__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonials__text {
+    font-size: var(--font-size-feedback);
+    line-height: var(--font-line-height-feedback);
+    font-weight: var(--font-weight-feedback-text);
+}
+
+.testimonials__author {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.testimonials__author-info * {
+    font-size: var(--font-size-feedback);
+    line-height: var(--font-line-height-feedback);
+}
+
+.testimonials__avatar {
+    width: 112px;
+    height: 112px;
+}
+
+.testimonials__author-name {
+    font-weight: var(--font-weight-feedback-heading);
+}
+
+.testimonials__author-position {
+    font-weight: var(--font-weight-feedback-text);
+}
+
+.swiper-pagination {
+    position: relative;
+    margin-top: 40px;
+}
+
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background: var(--white);
+    margin: 0 15px;
+}
+
+.swiper-pagination-bullet-active {
+    background: var(--white);
+}
+/* 
+.swiper-button-next,
+.swiper-button-prev {
+    color: black;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.1);
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 18px;
+} */

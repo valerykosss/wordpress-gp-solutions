@@ -1,0 +1,93 @@
+.customers__wrapper {
+    padding-bottom: var(--padding-100);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.customers__description {
+    margin-top: var(--margin-30);
+    width: 72%;
+}
+
+.customers__content-wrap {
+    margin-top: var(--margin-40);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.customers__card {
+    background-color: var(--light-blue);
+    width: 350px;
+    padding: 14px 30px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-radius: 12px;
+    font-weight: 600;
+    color: var(--dark-grey);
+    font-size: 20px;
+    cursor: pointer;
+    transition: 
+        background-color 0.5s ease-in-out,
+        color 0.3s ease-in-out,
+        box-shadow 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    transform: translateZ(0);
+}
+
+.customers__card-icon-arrow {
+    position: relative;
+    transition: transform 0.3s ease-out;
+}
+
+.customers__card-icon {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    transition: transform 0.4s ease;
+}
+
+.customers__card:hover .customers__card-icon {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) hue-rotate(0deg);
+}
+
+.customers__card-arrow {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 24px;
+    height: 24px;
+    opacity: 0;
+    transform: translateX(10px);
+    transition: 
+        opacity 0.4s cubic-bezier(0.25, 0.1, 0.25, 1),
+        transform 0.4s cubic-bezier(0.25, 0.1, 0.25, 1);
+    will-change: opacity, transform;
+}
+
+.customers__card-text {
+    transition: 
+        color 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+        transform 0.3s ease-out;
+}
+
+.customers__card:hover {
+    color: white;
+    background: linear-gradient(90deg, #004CA6 0%, #0C95CF 100%);
+    box-shadow: 11px 14px 32px rgba(4, 3, 44, 0.25);
+}
+
+.customers__card:hover .customers__card-icon-arrow {
+    transform: scale(1.05);
+}
+
+.customers__card:hover .customers__card-arrow {
+    opacity: 1;
+    transform: translateX(0);
+    transition-delay: 0.1s;
+}
+
+.customers__card:hover .customers__card-text {
+    transform: translateX(3px);
+}

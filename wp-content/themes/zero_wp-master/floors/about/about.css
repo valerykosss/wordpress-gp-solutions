@@ -1,0 +1,23 @@
+.about__wrapper {
+    padding-top: var(--padding-60);
+    padding-bottom: var(--padding-60);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about__title {
+    position: relative;
+}
+
+.about__content-wrap {
+    margin-top: var(--margin-40);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 72px;
+}
+
+.about__content-video-thumbnail {
+    width: 504px;
+}
