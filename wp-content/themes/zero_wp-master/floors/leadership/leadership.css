@@ -17,6 +17,7 @@
     padding-top: calc(var(--padding-60) - 13px);
     gap: 60px;
     justify-content: center;
+    width: 100%;
 }
 
 .card {
@@ -76,6 +77,7 @@
     top: 260px;
     position: absolute;
     z-index: 4;
+    width: 90%;
 }
 
 .card__info h4 {
@@ -170,4 +172,69 @@
 
 .card:hover .card__arrow {
     opacity: 1;
+}
+
+
+@media screen and (max-width: 1320px) {
+    .card {
+        width: 250px;
+    }
+
+    .card__socials {
+        right: 30px;
+    }
+
+    .leadership__cards-wrapper {
+        gap: 30px;
+    }
+
+    .card__info {
+        left: 20px;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 834px) {
+}
+
+@media screen and (max-width: 670px) {
+    .card {
+        width: 235px;
+    }
+
+    .card__info {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .leadership__cards-wrapper {
+        gap: 20px;
+    }
+
+    .card {
+        width: 75%;
+    }
+
+}
+
+@media screen and (max-width: 440px) {
+    .card {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .card {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    
 }

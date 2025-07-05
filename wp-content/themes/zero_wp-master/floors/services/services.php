@@ -17,7 +17,7 @@
                     <?php the_field('services__label-text') ?>
                 </h3>
             </div>
-            <div class="services__items">
+            <div class="services__items-wrapper">
 
                 <?php
                     if(have_rows('item')) {

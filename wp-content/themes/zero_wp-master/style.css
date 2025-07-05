@@ -37,7 +37,7 @@
 .line_blue {
     display: block;
     background-color: var(--span-blue-accent);
-    margin-top: 26px;
+    margin-top: var(--margin-heading-line-blue);
     width: var(--span-blue-width);
     height: var(--span-blue-height);
 }
@@ -45,11 +45,44 @@
 .line_orange {
     display: block;
     background-color: var(--span-orange-accent);
-    margin-top: 15px;
+    margin-top: var(--margin-heading-line-orange);
     width: var(--span-orange-width);
     height: var(--span-orange-height);
 }
 
 h1, h2, h3 {
-    text-transform: capitalize;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 1320px) {
+}
+
+@media screen and (max-width: 1140px) {
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 834px) {
+  html {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+}
+
+@media screen and (max-width: 540px) {
+}
+
+@media screen and (max-width: 440px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+}
+
+@media screen and (max-width: 320px) {
 }

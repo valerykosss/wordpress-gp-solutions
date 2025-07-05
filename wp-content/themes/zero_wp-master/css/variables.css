@@ -8,6 +8,8 @@
 
 	--margin-40: 40px;
 	--margin-30: 30px;
+	--margin-heading-line-blue: 26px;
+	--margin-heading-line-orange: 15px;
 
 	--span-blue-accent: #2B9AD6;
 	--span-blue-width: 100px;
@@ -49,3 +51,107 @@
 	--blue: #21508E;
 	--white: #ffffff;
 } 
+
+@media screen and (max-width: 1320px) {
+	:root {
+		--font-size-h4: 22px;
+	}
+}
+
+@media screen and (max-width: 1140px) {
+	:root {
+		--content-width-base: 980px;
+		--content-width-small: 980px;
+		--padding-60: 50px;
+		--padding-80: 70px;
+		--padding-100: 90px;
+		--margin-40: 35px;
+		--margin-30: 20px;
+
+		--font-size-h1: 40px;
+		--font-size-h3: 28px;
+		--font-size-p: 17px;
+		--font-size-feedback: 16px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	:root {
+		--content-width-base: 810px;
+		--content-width-small: 810px;
+	}
+}
+
+@media screen and (max-width: 834px) {
+	:root {
+		--content-width-base: 640px;
+		--content-width-small: 640px;
+
+		--padding-60: 40px;
+		--padding-80: 60px;
+		--padding-100: 80px;
+		--margin-40: 30px;
+		--margin-30: 15px;
+		--margin-heading-line-blue: 15px;
+		--margin-heading-line-orange: 10px;
+
+		--font-size-h1: 30px;
+		--font-size-h3: 24px;
+		--font-size-p: 16px;
+		--font-size-feedback: 14px;
+	}
+}
+
+@media screen and (max-width: 670px) {
+	:root {
+		--content-width-base: 500px;
+		--content-width-small: 500px;
+		--font-size-h4: 20px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	:root {
+		--content-width-base: 420px;
+		--content-width-small: 420px;
+		--padding-60: 30px;
+		--padding-80: 50px;
+		--padding-100: 70px;
+
+		--font-size-h1: 35px;
+		--font-size-h3: 24px;
+		--font-size-p: 16px;
+		--font-size-feedback: 14px;
+	}
+}
+
+@media screen and (max-width: 440px) {
+	:root {
+		--content-width-base: 360px;
+		--content-width-small: 360px;
+		--padding-60: 25px;
+		--padding-80: 40px;
+		--padding-100: 50px;
+		--margin-40: 25px;
+		--margin-30: 10px;
+
+		--font-size-h1: 30px;
+		--font-size-h3: 22px;
+		--font-size-p: 14px;
+		--font-size-feedback: 12px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	:root {
+		--content-width-base: 310px;
+		--content-width-small: 310px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	:root {
+		--content-width-base: 290px;
+		--content-width-small: 290px;
+	}
+}

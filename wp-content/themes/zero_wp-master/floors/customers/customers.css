@@ -19,7 +19,7 @@
 
 .customers__card {
     background-color: var(--light-blue);
-    width: 350px;
+    width: 31.5%;
     padding: 14px 30px;
     display: flex;
     align-items: center;
@@ -90,4 +90,79 @@
 
 .customers__card:hover .customers__card-text {
     transform: translateX(3px);
+}
+
+
+@media screen and (max-width: 1320px) {
+}
+
+@media screen and (max-width: 1140px) {
+    .customers__card {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .customers__description {
+        width: 100%;
+    }
+
+    .customers__card {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 834px) {
+    .customers__card {
+        width: 47.6%;
+    }
+
+    .customers__card {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .customers__card {
+        width: 47%;
+    }
+
+    .customers__card {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+    .customers__card {
+        width: 100%;
+    }
+
+    .customers__content-wrap {
+        gap: 20px;
+    }
+
+    .customers__card-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .customers__card {
+        padding: 10px 20px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .customers__card {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .customers__card {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 320px) {
 }
