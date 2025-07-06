@@ -159,6 +159,9 @@
 }
 
 @media screen and (max-width: 670px) {
+    .services__left-column {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 540px) {
